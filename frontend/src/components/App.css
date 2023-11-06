@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.contactify {
+  color: green;
+}
+
+.addcontactbox {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  /* background-color: #88ceef; */
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.action-buttons {
+  margin-left: auto;
+}
+
+.bi-trash {
+  color: red;
+  border-style: groove;
+  border-radius: 5px;
+}
+
+.bi-pencil {
+  color: green;
+  margin-right: 10px;
+}
+
+.container {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.deetsouter {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.deetsinner {
+  background-color: rgba(117, 110, 180, 0.54);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
